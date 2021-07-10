@@ -1,0 +1,17 @@
+CREATE TABLE COURSE (ID INTEGER NOT NULL,
+   Name VARCHAR(255) NOT NULL,
+Description VARCHAR(255),
+Author VARCHAR(255),
+creation_date TIMESTAMP,
+last_modified_date TIMESTAMP,
+   PRIMARY KEY (ID));
+
+--   
+-- CREATE TABLE TITLE (ID INTEGER NOT NULL,
+--   Name VARCHAR(255) NOT NULL,
+--Description VARCHAR(255),
+--FOREIGN KEY(category_id) REFERENCES category(ID),
+--   PRIMARY KEY (ID));
+
+   
+ 
