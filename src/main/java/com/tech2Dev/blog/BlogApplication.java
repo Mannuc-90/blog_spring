@@ -32,7 +32,7 @@ public class BlogApplication implements CommandLineRunner{
 	
 		 
 		 log.info("Creating new Course : {}", courseDao.createCourse(
-				new Course(4,"HTML" , "Basic HTML course to learn website creation", "sonu",new Date(System.currentTimeMillis()), new Date(System.currentTimeMillis()))
+				new Course(1,"HTML" , "Basic HTML course to learn website creation", "sonu",new Date(System.currentTimeMillis()), new Date(System.currentTimeMillis()))
 				));
 		 log.info("Courses : :{}",courseDao.getAllCourses()); 
 		 log.info("Updating course 1 : {}" , courseDao.updateCourse(new Course(
